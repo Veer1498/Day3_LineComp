@@ -6,15 +6,15 @@ public class LineComparision {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Line Comparison Computation Program on Master Branch");
 		int x1 = 2;
-		int x2 = 3;
+		int x2 = 5;
 		int y1 = 5;
 		int y2 = 2;
 		int x3 = 2;
-		int x4 = 3;
+		int x4 = 5;
 		int y3 = 5;
 		int y4 = 2;
-		double lengthOfLine1 = Math.sqrt (((x2-x1)^2)+((y2-y1)^2));
-		double lengthOfLine2 = Math.sqrt (((x4-x3)^2)+((y4-y3)^2));
+		double lengthOfLine1 = (int) Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
+		double lengthOfLine2 = (int) Math.sqrt(Math.pow((x4-x3),2)+Math.pow((y4-y3),2));
 		Integer obj1 = new Integer((int)lengthOfLine1);
 		Integer obj2 = new Integer((int)lengthOfLine2);
 		System.out.println("The points x1= " +x1);
